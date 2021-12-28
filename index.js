@@ -2,6 +2,9 @@ import fetch from 'node-fetch';
 import xl from 'excel4node';
 
 const gitlabToken = 'YOUR-TOKEN';
+const url = 'https://gitlab.com/api/v4/projects/';
+const project_id = 'YOUR-PROJECT-ID';
+const query = '/repository/branches?per_page=100&page=';
 
 async function fetchBracnhes() {
   console.log("Branches request -- init");
@@ -20,7 +23,7 @@ async function fetchBracnhes() {
 }
   
 async function branches(page) {
-  var request = await fetch('https://gitlab.com/api/v4/projects/10654822/repository/branches?per_page=100&page=' + page, {
+  var request = await fetch(url + project_id + query + page, {
         method: 'GET',
         headers: {
             "Authorization": "Bearer " + gitlabToken,
