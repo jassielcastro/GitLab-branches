@@ -12,7 +12,8 @@ const gitlabToken = 'YOUR-TOKEN';
 
 ---------------------
 
-## Execute:
+### Execute:
+
+Open your terminal, type the following line and execute it, the file with the branches will be generated in the same path of the project.
 
  > node index.js
- 
