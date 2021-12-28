@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 import xl from 'excel4node';
 
-const gitlabToken = '';
+const gitlabToken = 'YOUR-TOKEN';
 
 async function fetchBracnhes() {
   console.log("Branches request -- init");
