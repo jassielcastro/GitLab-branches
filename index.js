@@ -55,10 +55,6 @@ const styleDate = wb.createStyle({
   alignment: {
       horizontal: 'center'
   }, 
-    }, 
-  }, 
-    }, 
-  }, 
   numberFormat: 'dd MMMM yyyy'
 });
 
