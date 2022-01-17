@@ -10,6 +10,12 @@ Replace ```YOUR-TOKEN``` by your personal Gitlab token in the index.js file
 const gitlabToken = 'YOUR-TOKEN';
 ```
 
+Replace ```YOUR-PROJECT-ID``` by your Gitlab project in the index.js file
+
+```js
+const project_id = 'YOUR-PROJECT-ID';
+```
+
 ---------------------
 
 ### Execute:
